@@ -1,0 +1,7 @@
+[Unit]
+Description=SnapRAID Scrub Service
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/snapraid scrub
+[Install]
+WantedBy=multi-user.target
